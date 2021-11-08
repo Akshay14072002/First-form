@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>MY FIRST FORM</title>
+</head>
+<body>
+  <style>
+    form{
+      background-image: linear-gradient(skyblue,white);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(4, 4, 107);
+      }
+    img{
+      width:225px;
+      height:300px;
+      margin-left: 300px;
+      margin-top: -200px;
+      border:rgb(132, 149, 201);
+      border-style:dashed;
+      border-width: 10px;
+      border-radius: 50%;
+      padding: 20px;
+     }
+     #A{
+       color: rgb(41, 90, 236);
+     }
+     .B{
+       color: orangered;
+     }
+     marquee{
+       font-size: 40px;
+       background-color: royalblue;
+       color: white;
+     }
+     </style>
+<marquee>My first form</marquee>
+<b><form action="mailto:20bcs059@nith.ac.in" method="POST">
+Name:
+<input type="text" name="name" placeholder="Enter your name" required>
+<br><br>
+Gender:
+<input type="radio" name="gender" value="male" id="gender-m">
+<label for="gender-m" id="A"><b>Male</b></label>
+<input type="radio" name="gender" value="female" id="gender-f">
+<label for="gender-f" class="B"><b>Female</b></label><br><br>
+Age:
+<input type="number" name="age" placeholder="Enter your age">
+<br><br>
+Skills:
+<input type="checkbox" name="skill" value="Python" id="skill-1">
+<label for="skill-1" id="A"><b>Python</b></label>
+<input type="checkbox" name="skill" value="CSS" id="skill-2">
+<label for="skill-2" class="B"><b>CSS</b></label>
+<br><br>
+State:
+<select>
+  <option>--Select your state--</option>
+  <option>Himachal Pradesh</option>
+  <option>Uttar pradesh</option>
+  <option>Rajasthan</option>
+</select>
+<br><br>
+<input type="submit" name="submit" value="Submit" style="background-color: green; color: white;">
+<input type="reset" value="Reset" style="background-color: rgb(4, 4, 107); color: white;">
+</form></b>
+<img src="IMG-20201211-WA0035.jpg">
+</body>
+</html>
